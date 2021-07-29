@@ -21,6 +21,10 @@ h1{
   /* color: #BA135D; */
   color: #e31b6d;
   font-family:serif;
+  /* font-family: 'DM Serif Text', serif; */
+  /* font-family: 'DM Serif Display', serif; */
+/* font-family: 'STIX Two Text', serif; */
+/* font-family: 'Libre Baskerville', serif; */
   font-size: 50px;
 }
 h4{
@@ -52,8 +56,8 @@ h4{
 
 @media screen and (max-width: 768px) {
   h1{
-    /* font-family:serif; */
-    font-family: "Raleway";
+    font-family:serif;
+    /* font-family: "Raleway"; */
     font-size: 25px;
     font-synthesis: style;
     font-weight: bold;
@@ -223,7 +227,7 @@ nav .icon-burger .line {
 		transform: translateY(10px) rotate(225deg);
 	}
 	nav :checked ~ .icon-burger .line:nth-child(3) {
-		transform: translateY(-10px) rotate(-225deg);
+		transform: translateY(-5px) rotate(-225deg);
 	}
 	nav :checked ~ .icon-burger .line:nth-child(2) {
 		opacity: 0;
